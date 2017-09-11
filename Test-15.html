@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+
+        .herd{
+
+
+
+            width: 100%;
+
+            /*父级根据子集高度而设置*/
+            overflow: auto;
+
+
+
+        }
+        .herd-center,.herd-left,.herd-right{
+
+            height: 150px;
+            float: left;
+            width: 300px;
+
+
+        }
+
+        .herd-center{
+
+            background: black;
+
+        }
+        .herd-left{
+            margin-left: -100%;
+
+            background: deeppink;
+
+        }
+        .herd-right{
+            margin-left: -300px;
+            background: green;
+
+        }
+
+
+
+    </style>
+</head>
+<body>
+
+    <div class="herd">
+        <div class="herd-center"></div>
+        <div class="herd-left"></div>
+        <div class="herd-right"></div>
+
+    </div>
+
+</body>
+</html>
